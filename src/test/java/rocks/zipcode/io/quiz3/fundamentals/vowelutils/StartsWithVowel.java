@@ -29,7 +29,7 @@ public class StartsWithVowel {
 
     public void test3() {
         String input = "Eggnog";
-        Assert.assertTrue(VowelUtils.startsWithVowel(input));
+       Assert.assertTrue(VowelUtils.startsWithVowel(input));
     }
 
     public void test4() {

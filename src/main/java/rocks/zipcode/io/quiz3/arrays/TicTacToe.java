@@ -12,7 +12,16 @@ public class TicTacToe {
     }
 
     public String[] getRow(Integer value) {
-        return null;
+       String[] board = new String[3];
+       for( int i=0;i<3;i++) {
+           if (board[i] == "O")
+
+               board[i] = "X";
+
+           else
+               board[i] = "X";
+       }
+            return board;
     }
 
     public String[] getColumn(Integer value) {

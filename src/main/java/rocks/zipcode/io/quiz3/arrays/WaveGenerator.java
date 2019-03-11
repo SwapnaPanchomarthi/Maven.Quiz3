@@ -5,6 +5,13 @@ package rocks.zipcode.io.quiz3.arrays;
  */
 public class WaveGenerator {
     public static String[] wave(String str) {
+       int n=10;
+        String[] strArr = new String[n];
+        for(int i=0;i<n;i++)
+        {
+            System.out.println(strArr);
+
+        }
         return null;
     }
 }
